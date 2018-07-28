@@ -54,6 +54,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -65,6 +66,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Hidden" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="102" name="Changes" color="12" fill="1" visible="yes" active="yes"/>
@@ -78,7 +80,9 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -90,8 +94,12 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -118,6 +126,9 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -27353,6 +27364,90 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
+<library name="switch">
+<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
+Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="REKN">
+<description>&lt;b&gt;PUSH SWITCH&lt;/b&gt;&lt;p&gt;
+ITT-Cannon-Cannon</description>
+<wire x1="-6.8999" y1="-6.1001" x2="-3.5999" y2="-6.1001" width="0.2032" layer="21"/>
+<wire x1="-3.5999" y1="-6.1001" x2="6.8999" y2="-6.1001" width="0.2032" layer="21"/>
+<wire x1="6.8999" y1="-6.1001" x2="6.8999" y2="6.1001" width="0.2032" layer="21"/>
+<wire x1="6.8999" y1="6.1001" x2="-3.5999" y2="6.1001" width="0.2032" layer="21"/>
+<wire x1="-3.5999" y1="6.1001" x2="-6.8999" y2="6.1001" width="0.2032" layer="21"/>
+<wire x1="-6.8999" y1="6.1001" x2="-6.8999" y2="-6.1001" width="0.2032" layer="21"/>
+<wire x1="-3.5999" y1="-6.1001" x2="-3.5999" y2="6.1001" width="0.2032" layer="21"/>
+<wire x1="-3.5999" y1="-6.1001" x2="-2.54" y2="-4.064" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-4.064" x2="-2.54" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="4.064" x2="-3.5999" y2="6.1001" width="0.2032" layer="21"/>
+<wire x1="6.8999" y1="-6.1001" x2="5.969" y2="-4.064" width="0.2032" layer="21"/>
+<wire x1="5.969" y1="-4.064" x2="5.969" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="5.969" y1="4.064" x2="6.8999" y2="6.1001" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="4.064" x2="5.969" y2="4.064" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-4.064" x2="5.969" y2="-4.064" width="0.2032" layer="21"/>
+<pad name="0A" x="5.08" y="5.08" drill="0.8998" shape="long" rot="R90"/>
+<pad name="1A" x="0" y="5.08" drill="0.8998" shape="long" rot="R90"/>
+<pad name="A" x="-5.08" y="5.08" drill="0.8998" shape="long" rot="R90"/>
+<pad name="B" x="-5.08" y="-5.08" drill="0.8998" shape="long" rot="R90"/>
+<pad name="1B" x="0" y="-5.08" drill="0.8998" shape="long" rot="R90"/>
+<pad name="0B" x="5.08" y="-5.08" drill="0.8998" shape="long" rot="R90"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<hole x="-5.08" y="0" drill="1.1"/>
+<hole x="5.08" y="0" drill="1.1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NORMOPEN">
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="3.048" y2="1.778" width="0.2032" layer="94"/>
+<wire x1="3.048" y1="0.508" x2="3.048" y2="0" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="1.016" x2="0.762" y2="1.524" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="2.032" x2="0.762" y2="2.794" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="2.794" x2="0.762" y2="3.048" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="3.556" x2="0.762" y2="4.064" width="0.2032" layer="94"/>
+<wire x1="1.27" y1="4.064" x2="0.762" y2="4.064" width="0.2032" layer="94"/>
+<wire x1="0.762" y1="4.064" x2="0.254" y2="4.064" width="0.2032" layer="94"/>
+<wire x1="0.254" y1="2.286" x2="0.762" y2="2.794" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.794" x2="1.27" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.048" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
+<circle x="-2.54" y="0" radius="0.508" width="0" layer="94"/>
+<circle x="5.08" y="0" radius="0.508" width="0" layer="94"/>
+<text x="-3.048" y="4.826" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-5.588" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="0@A" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="0@B" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1@B" x="7.62" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="1@A" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="REKN" prefix="S" uservalue="yes">
+<description>&lt;b&gt;PUSH SWITCH&lt;/b&gt;&lt;p&gt;
+ITT-Cannon-Cannon</description>
+<gates>
+<gate name="G$1" symbol="NORMOPEN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="REKN">
+<connects>
+<connect gate="G$1" pin="0@A" pad="0A"/>
+<connect gate="G$1" pin="0@B" pad="0B"/>
+<connect gate="G$1" pin="1@A" pad="1A"/>
+<connect gate="G$1" pin="1@B" pad="1B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -27548,6 +27643,14 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="P+34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
 <part name="P+35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
 <part name="P+36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
+<part name="S1" library="switch" deviceset="REKN" device=""/>
+<part name="S2" library="switch" deviceset="REKN" device=""/>
+<part name="S3" library="switch" deviceset="REKN" device=""/>
+<part name="GND46" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="P+37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -29685,6 +29788,7 @@ ESP8266 ESP-01</text>
 <text x="132.08" y="116.84" size="1.778" layer="91">RS485 BUS FOR COMMUNICATION WITH SPEC SENSORS VIA UART</text>
 <text x="279.4" y="132.08" size="1.778" layer="91">TO ARDUINO</text>
 <text x="71.12" y="292.1" size="1.778" layer="91">I2C LCD DISPLAY</text>
+<text x="170.18" y="284.48" size="1.778" layer="91">USER PUSH BUTTONS</text>
 </plain>
 <instances>
 <instance part="U$6" gate="G$1" x="43.18" y="170.18" rot="R180"/>
@@ -29742,7 +29846,7 @@ ESP8266 ESP-01</text>
 <instance part="LCD_11-16" gate="G$1" x="142.24" y="233.68" rot="R180"/>
 <instance part="GND47" gate="1" x="132.08" y="256.54"/>
 <instance part="GND48" gate="1" x="109.22" y="266.7"/>
-<instance part="GND49" gate="1" x="93.98" y="226.06"/>
+<instance part="GND49" gate="1" x="99.06" y="226.06"/>
 <instance part="GND50" gate="1" x="134.62" y="213.36"/>
 <instance part="R7" gate="G$1" x="48.26" y="284.48" rot="R90"/>
 <instance part="A0" gate="G$1" x="43.18" y="238.76" rot="R270"/>
@@ -29756,6 +29860,14 @@ ESP8266 ESP-01</text>
 <instance part="P+34" gate="VCC" x="134.62" y="287.02"/>
 <instance part="P+35" gate="VCC" x="114.3" y="226.06"/>
 <instance part="P+36" gate="VCC" x="35.56" y="248.92"/>
+<instance part="S1" gate="G$1" x="170.18" y="256.54"/>
+<instance part="S2" gate="G$1" x="170.18" y="246.38"/>
+<instance part="S3" gate="G$1" x="170.18" y="236.22"/>
+<instance part="GND46" gate="1" x="160.02" y="226.06"/>
+<instance part="P+37" gate="VCC" x="190.5" y="281.94"/>
+<instance part="R8" gate="G$1" x="182.88" y="269.24" rot="R90"/>
+<instance part="R9" gate="G$1" x="190.5" y="269.24" rot="R90"/>
+<instance part="R10" gate="G$1" x="198.12" y="269.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -29890,12 +30002,6 @@ ESP8266 ESP-01</text>
 <wire x1="109.22" y1="271.78" x2="109.22" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="VSS"/>
-<wire x1="91.44" y1="236.22" x2="93.98" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="93.98" y1="236.22" x2="93.98" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="LCD_11-16" gate="G$1" pin="6"/>
 <wire x1="137.16" y1="226.06" x2="134.62" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="GND50" gate="1" pin="GND"/>
@@ -29915,6 +30021,26 @@ ESP8266 ESP-01</text>
 <wire x1="50.8" y1="238.76" x2="50.8" y2="226.06" width="0.1524" layer="91"/>
 <junction x="50.8" y="226.06"/>
 <junction x="50.8" y="213.36"/>
+</segment>
+<segment>
+<pinref part="GND49" gate="1" pin="GND"/>
+<wire x1="99.06" y1="228.6" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="G$1" pin="VSS"/>
+<wire x1="99.06" y1="236.22" x2="91.44" y2="236.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S1" gate="G$1" pin="0@A"/>
+<wire x1="165.1" y1="256.54" x2="160.02" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="GND46" gate="1" pin="GND"/>
+<wire x1="160.02" y1="256.54" x2="160.02" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="0@A"/>
+<wire x1="160.02" y1="246.38" x2="160.02" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="236.22" x2="160.02" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="246.38" x2="160.02" y2="246.38" width="0.1524" layer="91"/>
+<junction x="160.02" y="246.38"/>
+<pinref part="S3" gate="G$1" pin="0@A"/>
+<wire x1="165.1" y1="236.22" x2="160.02" y2="236.22" width="0.1524" layer="91"/>
+<junction x="160.02" y="236.22"/>
 </segment>
 </net>
 <net name="ESP-CS" class="0">
@@ -30067,13 +30193,6 @@ ESP8266 ESP-01</text>
 <pinref part="P+33" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="LCD_1-6" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="274.32" x2="134.62" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="274.32" x2="134.62" y2="284.48" width="0.1524" layer="91"/>
-<label x="148.59" y="274.32" size="1.27" layer="95"/>
-<pinref part="P+34" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="223.52" x2="114.3" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="218.44" x2="116.84" y2="218.44" width="0.1524" layer="91"/>
@@ -30092,6 +30211,19 @@ ESP8266 ESP-01</text>
 <junction x="35.56" y="238.76"/>
 <junction x="35.56" y="226.06"/>
 <pinref part="P+36" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="P+37" gate="VCC" pin="VCC"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="279.4" x2="190.5" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="276.86" x2="190.5" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="274.32" x2="182.88" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="276.86" x2="190.5" y2="276.86" width="0.1524" layer="91"/>
+<junction x="190.5" y="276.86"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="274.32" x2="198.12" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="276.86" x2="190.5" y2="276.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESP-RST" class="0">
@@ -30544,6 +30676,48 @@ ESP8266 ESP-01</text>
 <wire x1="63.5" y1="218.44" x2="63.5" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="G$1" pin="A2"/>
 <wire x1="63.5" y1="241.3" x2="68.58" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+5V" class="0">
+<segment>
+<pinref part="LCD_1-6" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="274.32" x2="134.62" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="274.32" x2="134.62" y2="284.48" width="0.1524" layer="91"/>
+<label x="148.59" y="274.32" size="1.27" layer="95"/>
+<pinref part="P+34" gate="VCC" pin="VCC"/>
+</segment>
+</net>
+<net name="PB5" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="182.88" y1="264.16" x2="182.88" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1@A"/>
+<wire x1="182.88" y1="256.54" x2="177.8" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="256.54" x2="203.2" y2="256.54" width="0.1524" layer="91"/>
+<junction x="182.88" y="256.54"/>
+<label x="200.66" y="256.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PB6" class="0">
+<segment>
+<pinref part="S2" gate="G$1" pin="1@A"/>
+<wire x1="190.5" y1="246.38" x2="177.8" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="264.16" x2="190.5" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="246.38" x2="203.2" y2="246.38" width="0.1524" layer="91"/>
+<junction x="190.5" y="246.38"/>
+<label x="200.66" y="246.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PB7" class="0">
+<segment>
+<pinref part="S3" gate="G$1" pin="1@A"/>
+<wire x1="198.12" y1="236.22" x2="177.8" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="264.16" x2="198.12" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="236.22" x2="203.2" y2="236.22" width="0.1524" layer="91"/>
+<junction x="198.12" y="236.22"/>
+<label x="200.66" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
