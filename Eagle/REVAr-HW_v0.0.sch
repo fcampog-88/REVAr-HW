@@ -23546,6 +23546,104 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <wire x1="20.955" y1="-2.54" x2="21.59" y2="-3.175" width="0.127" layer="21"/>
 <wire x1="21.59" y1="-3.175" x2="21.59" y2="-4.445" width="0.127" layer="21"/>
 </package>
+<package name="CARD-SD-ADAPTER">
+<description>&lt;b&gt;Full Size SD Card Adapter Module&lt;/b&gt; with onboard 3.3V regulator</description>
+<wire x1="-23.114" y1="15.24" x2="23.114" y2="15.24" width="0.127" layer="21"/>
+<wire x1="23.114" y1="-15.24" x2="-23.114" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="-23.114" y1="-15.24" x2="-23.114" y2="15.24" width="0.127" layer="21"/>
+<pad name="1" x="-21.59" y="8.89" drill="1" shape="square"/>
+<pad name="2" x="-19.05" y="8.89" drill="1"/>
+<pad name="3" x="-21.59" y="6.35" drill="1"/>
+<pad name="4" x="-19.05" y="6.35" drill="1"/>
+<pad name="5" x="-21.59" y="3.81" drill="1"/>
+<pad name="6" x="-19.05" y="3.81" drill="1"/>
+<pad name="7" x="-21.59" y="1.27" drill="1"/>
+<pad name="8" x="-19.05" y="1.27" drill="1"/>
+<pad name="9" x="-21.59" y="-1.27" drill="1"/>
+<pad name="10" x="-19.05" y="-1.27" drill="1"/>
+<pad name="11" x="-21.59" y="-3.81" drill="1"/>
+<pad name="12" x="-19.05" y="-3.81" drill="1"/>
+<pad name="13" x="-21.59" y="-6.35" drill="1"/>
+<pad name="14" x="-19.05" y="-6.35" drill="1"/>
+<pad name="15" x="-21.59" y="-8.89" drill="1"/>
+<pad name="16" x="-19.05" y="-8.89" drill="1"/>
+<wire x1="-22.86" y1="9.525" x2="-22.225" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="10.16" x2="-20.955" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-20.955" y1="10.16" x2="-20.32" y2="9.525" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="9.525" x2="-19.685" y2="10.16" width="0.127" layer="21"/>
+<hole x="-20.32" y="12.5" drill="2.5"/>
+<hole x="-20.32" y="-12.5" drill="2.5"/>
+<wire x1="25.908" y1="14.478" x2="23.114" y2="14.478" width="0.127" layer="21"/>
+<wire x1="23.114" y1="14.478" x2="-3.048" y2="14.478" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="14.478" x2="-3.048" y2="-14.478" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="-14.478" x2="23.114" y2="-14.478" width="0.127" layer="21"/>
+<wire x1="23.114" y1="-14.478" x2="25.908" y2="-14.478" width="0.127" layer="21"/>
+<wire x1="23.114" y1="15.24" x2="23.114" y2="14.478" width="0.127" layer="21"/>
+<wire x1="23.114" y1="-15.24" x2="23.114" y2="-14.478" width="0.127" layer="21"/>
+<wire x1="-19.685" y1="10.16" x2="-18.415" y2="10.16" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="10.16" x2="-17.78" y2="9.525" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="9.525" x2="-17.78" y2="8.255" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="8.255" x2="-18.415" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="7.62" x2="-17.78" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="6.985" x2="-17.78" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="5.715" x2="-18.415" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="5.08" x2="-17.78" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="4.445" x2="-17.78" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="3.175" x2="-18.415" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="2.54" x2="-17.78" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="1.905" x2="-17.78" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="0.635" x2="-18.415" y2="0" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="0" x2="-17.78" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-0.635" x2="-17.78" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-1.905" x2="-18.415" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="-2.54" x2="-17.78" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-3.175" x2="-17.78" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-4.445" x2="-18.415" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="-5.08" x2="-17.78" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-5.715" x2="-17.78" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-6.985" x2="-18.415" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="-7.62" x2="-17.78" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-8.255" x2="-17.78" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="-9.525" x2="-18.415" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-18.415" y1="-10.16" x2="-19.685" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-19.685" y1="-10.16" x2="-20.32" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-20.32" y1="-9.525" x2="-20.955" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-20.955" y1="-10.16" x2="-22.225" y2="-10.16" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="-10.16" x2="-22.86" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-9.525" x2="-22.86" y2="-8.255" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-8.255" x2="-22.225" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="-7.62" x2="-22.86" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-6.985" x2="-22.86" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-5.715" x2="-22.225" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="-5.08" x2="-22.86" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-4.445" x2="-22.86" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-3.175" x2="-22.225" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="-2.54" x2="-22.86" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-1.905" x2="-22.86" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="-0.635" x2="-22.225" y2="0" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="0" x2="-22.86" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="0.635" x2="-22.86" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="1.905" x2="-22.225" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="2.54" x2="-22.86" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="3.175" x2="-22.86" y2="4.445" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="4.445" x2="-22.225" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="5.08" x2="-22.86" y2="5.715" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="5.715" x2="-22.86" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="6.985" x2="-22.225" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-22.225" y1="7.62" x2="-22.86" y2="8.255" width="0.127" layer="21"/>
+<wire x1="-22.86" y1="8.255" x2="-22.86" y2="9.525" width="0.127" layer="21"/>
+<wire x1="25.908" y1="14.478" x2="25.908" y2="11.684" width="0.127" layer="21"/>
+<wire x1="25.908" y1="11.684" x2="25.908" y2="9.525" width="0.127" layer="21"/>
+<wire x1="25.908" y1="-14.478" x2="25.908" y2="-12.192" width="0.127" layer="21"/>
+<wire x1="25.908" y1="-12.192" x2="25.908" y2="-10.287" width="0.127" layer="21"/>
+<wire x1="25.908" y1="11.684" x2="32.004" y2="11.684" width="0.127" layer="21" style="shortdash"/>
+<wire x1="32.004" y1="11.684" x2="32.004" y2="-12.192" width="0.127" layer="21" style="shortdash"/>
+<wire x1="32.004" y1="-12.192" x2="25.908" y2="-12.192" width="0.127" layer="21" style="shortdash"/>
+<wire x1="25.908" y1="9.525" x2="25.908" y2="-10.287" width="0.127" layer="21" curve="180"/>
+<text x="0" y="16.51" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-16.51" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<text x="24.13" y="-0.381" size="1.778" layer="21" rot="R90" align="center">SD CARD</text>
+</package>
 </packages>
 <symbols>
 <symbol name="WIRELESS-WIFI-ESP-01">
@@ -23614,6 +23712,29 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <pin name="DE" x="-22.86" y="-2.54" length="middle" direction="pas"/>
 <pin name="DI" x="-22.86" y="-5.08" length="middle" direction="pas"/>
 <wire x1="1.27" y1="3.81" x2="1.27" y2="-6.35" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CARD-SD-ADAPTER">
+<description>&lt;b&gt;Full Size SD Card Adapter Module&lt;/b&gt; with onboard 3.3V regulator</description>
+<pin name="GND.1" x="-22.86" y="10.16" length="middle" direction="pwr"/>
+<pin name="3V3" x="-22.86" y="7.62" length="middle" direction="pwr"/>
+<pin name="5V" x="-22.86" y="5.08" length="middle" direction="pwr"/>
+<pin name="CS" x="-22.86" y="2.54" length="middle"/>
+<pin name="MOSI" x="-22.86" y="0" length="middle"/>
+<pin name="SCK" x="-22.86" y="-2.54" length="middle"/>
+<pin name="MISO" x="-22.86" y="-5.08" length="middle"/>
+<pin name="GND.2" x="-22.86" y="-7.62" length="middle" direction="pwr"/>
+<wire x1="-17.78" y1="15.24" x2="20.32" y2="15.24" width="0.254" layer="94"/>
+<wire x1="20.32" y1="15.24" x2="20.32" y2="12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="20.32" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-10.16" x2="20.32" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-12.7" x2="-17.78" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-12.7" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
+<wire x1="20.32" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="0" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="0" y1="-10.16" x2="20.32" y2="-10.16" width="0.254" layer="94"/>
+<text x="10.16" y="1.27" size="2.54" layer="94" align="center">SD CARD</text>
+<text x="-17.78" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -23689,6 +23810,34 @@ Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailt
 <connect gate="G$1" pin="RE" pad="J1.3"/>
 <connect gate="G$1" pin="RO" pad="J1.4"/>
 <connect gate="G$1" pin="VCC" pad="J2.1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CARD-SD-ADAPTER">
+<description>&lt;b&gt;Full Size SD Card Adapter Module&lt;/b&gt; with onboard 3.3V regulator
+&lt;p&gt;Guide describing how to use SD card with Arduino is available here:&lt;br /&gt;
+&lt;a href="https://www.arduino.cc/en/Reference/SDCardNotes"&gt;https://www.arduino.cc/en/Reference/SDCardNotes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/sd+card+socket+module"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=CARD-SD-ADAPTER"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="CARD-SD-ADAPTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CARD-SD-ADAPTER">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3"/>
+<connect gate="G$1" pin="5V" pad="5"/>
+<connect gate="G$1" pin="CS" pad="7"/>
+<connect gate="G$1" pin="GND.1" pad="1"/>
+<connect gate="G$1" pin="GND.2" pad="15"/>
+<connect gate="G$1" pin="MISO" pad="13"/>
+<connect gate="G$1" pin="MOSI" pad="9"/>
+<connect gate="G$1" pin="SCK" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -27651,6 +27800,9 @@ ITT-Cannon-Cannon</description>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="R9" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0805" value="10k"/>
+<part name="U$23" library="diy-modules" deviceset="CARD-SD-ADAPTER" device=""/>
+<part name="GND51" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="P+38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device="" value="+5V"/>
 </parts>
 <sheets>
 <sheet>
@@ -29868,6 +30020,9 @@ ESP8266 ESP-01</text>
 <instance part="R8" gate="G$1" x="182.88" y="269.24" rot="R90"/>
 <instance part="R9" gate="G$1" x="190.5" y="269.24" rot="R90"/>
 <instance part="R10" gate="G$1" x="198.12" y="269.24" rot="R90"/>
+<instance part="U$23" gate="G$1" x="241.3" y="172.72"/>
+<instance part="GND51" gate="1" x="213.36" y="160.02"/>
+<instance part="P+38" gate="VCC" x="208.28" y="187.96"/>
 </instances>
 <busses>
 </busses>
@@ -30041,6 +30196,16 @@ ESP8266 ESP-01</text>
 <pinref part="S3" gate="G$1" pin="0@A"/>
 <wire x1="165.1" y1="236.22" x2="160.02" y2="236.22" width="0.1524" layer="91"/>
 <junction x="160.02" y="236.22"/>
+</segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="GND.1"/>
+<pinref part="GND51" gate="1" pin="GND"/>
+<wire x1="218.44" y1="182.88" x2="213.36" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="182.88" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="GND.2"/>
+<wire x1="213.36" y1="165.1" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="165.1" x2="213.36" y2="165.1" width="0.1524" layer="91"/>
+<junction x="213.36" y="165.1"/>
 </segment>
 </net>
 <net name="ESP-CS" class="0">
@@ -30224,6 +30389,12 @@ ESP8266 ESP-01</text>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="274.32" x2="198.12" y2="276.86" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="276.86" x2="190.5" y2="276.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+38" gate="VCC" pin="VCC"/>
+<wire x1="208.28" y1="185.42" x2="208.28" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="5V"/>
+<wire x1="208.28" y1="177.8" x2="218.44" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ESP-RST" class="0">
@@ -30718,6 +30889,33 @@ ESP8266 ESP-01</text>
 <wire x1="198.12" y1="236.22" x2="203.2" y2="236.22" width="0.1524" layer="91"/>
 <junction x="198.12" y="236.22"/>
 <label x="200.66" y="236.22" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PB2" class="0">
+<segment>
+<pinref part="U$23" gate="G$1" pin="MOSI"/>
+<wire x1="218.44" y1="172.72" x2="210.82" y2="172.72" width="0.1524" layer="91"/>
+<label x="208.28" y="172.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PB1" class="0">
+<segment>
+<pinref part="U$23" gate="G$1" pin="SCK"/>
+<wire x1="218.44" y1="170.18" x2="210.82" y2="170.18" width="0.1524" layer="91"/>
+<label x="208.28" y="170.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="U$23" gate="G$1" pin="CS"/>
+<wire x1="218.44" y1="175.26" x2="210.82" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PB3" class="0">
+<segment>
+<pinref part="U$23" gate="G$1" pin="MISO"/>
+<wire x1="218.44" y1="167.64" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
+<label x="208.28" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
